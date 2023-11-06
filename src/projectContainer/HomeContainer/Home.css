@@ -1,0 +1,201 @@
+body{
+    background-color: #F5F5F5;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* headerSECTION */
+.Header{
+    width: 100%;
+    height: 140px;
+    background-color: #00923f;
+    display: flex;  
+    border-bottom: dotted 1px red; 
+   /* background-image: "../assets/Kaduna_State_University_16.jpg"; */
+     
+}
+.Header .logoBar{
+  margin-left: 100px;
+
+}
+.Header .logoBar .kasulogo{
+  height: 120px;
+}
+.image2{
+ width: 10px;
+}
+
+.Header .schoolName{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-left: 70px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Header h3{
+    margin-top: 3px;
+    font-family: "Poppins",  sans-serif;
+}
+
+ .Footer .footerBar{
+  z-index: 1000; 
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #00923fe3;
+  border: 1px thin yellow;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+ }
+ .Footer .footerBar p{
+  margin-bottom: 100px;
+ }
+
+
+/* loginBtns Sections */
+.Top .loginSection{
+    display: flex;
+    margin-left: 1em;
+    flex-direction: row;
+    margin-top: 2em;
+    font-weight: 40px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
+.Top .loginSection .studentBtn{
+    /* margin-right: 5em; */
+    margin-bottom: 10px;
+    background-color: #00923f;
+    border-radius: 15% ;
+    /* border: dotted 0.5px rgb(255, 217, 0); */
+    width: 10em;
+    height: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35)
+    
+  }
+
+.Top .loginSection .ExamOfficer-Btn{
+    margin-bottom: 10px;
+    background-color: #00923f;
+    border-radius: 15% ;
+    /* border: dotted 0.5px rgb(255, 217, 0); */
+    width: 10em;
+    height: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35);
+}
+.Top .loginSection .Lvl-CoordBtn{
+    margin-bottom: 10px;
+    background-color: #00923f;
+    border-radius: 15% ;
+    /* border: dotted 0.5px rgb(255, 217, 0); */
+    width: 11em;
+    height: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35);  
+}
+.Top .loginSection .HOD-Btn{
+    margin-bottom: 10px;
+    background-color: #00923f;
+    border-radius: 15% ;
+    /* border: dotted 0.5px rgb(255, 217, 0); */
+    width: 11em;
+    height: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35);
+  }
+  .Top .loginSection .studentBtn:hover {
+    transform: scale(0.97);
+  }
+  .Top .loginSection .ExamOfficer-Btn:hover {
+    transform: scale(0.97);
+  }
+  .Top .loginSection .Lvl-CoordBtn:hover {
+    transform: scale(0.97);
+  }
+  .Top .loginSection .HOD-Btn:hover {
+    transform: scale(0.97);
+  }
+.Top .loginSection .studentBtn h4{
+    display: flex;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.Top .loginSection .ExamOfficer-Btn h4{
+    font-size: 22px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: white;
+}
+.Top .loginSection .Lvl-CoordBtn h4{
+    font-size: 22px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: white;
+}
+.Top .loginSection .HOD-Btn h4{
+    /* display: flex; */
+    font-size: 22px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: white;
+    
+}
+
+.Top .loginSection .studentBtn:active{
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35);
+}
+.Top .loginSection .ExamOfficer-Btn:active{
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35);
+}
+.Top .loginSection .Lvl-CoordBtn:active{
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35);
+}
+.Top .loginSection .HOD-Btn:active{
+    box-shadow: 0px 0px 10px 0px rgb(36, 35, 35);
+}
+
+
+  /* applications proceedure */
+
+ .application-steps{
+  color: rgb(32, 33, 34);
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-size: large;
+  display: flex;
+  margin-left: 150px;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+ .application ul li{
+  padding-bottom: 10px;
+  font-family: "Roboto";
+}
+.application p{
+  margin-bottom: 100px;
+  font-family: 'Roboto';
+}
+
+.application-steps .image3 .illustration{
+  height: 500px;
+  width:500px;
+  margin-right: 100px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  box-shadow: 0px 0px 10px 0px rgb(65, 63, 63);
+}
+  
+
+

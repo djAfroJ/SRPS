@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+@import url('https://fonts.googleapis.com/css?family=poppins:300,400,400i,500');
+
+body {
+  /* overflow-x: hidden; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: fixed;
+  margin-right: 0;
+
+}
+
+/* Sidebar Styles */
+
+.sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 59%;
+  margin-left: -240px;
+  overflow-y: auto;
+  background: #000 ;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+ margin-top: 10px;
+ /* margin-bottom: 0px; */
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.sidebar header {
+  background-color: #00923f;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+  border-radius: 5px auto;
+}
+
+.sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-family: 'poppins';
+}
+
+.sidebar header a:hover {
+  color: whitesmoke;
+}
+
+.sidebar .nav li .action{
+  background: none;
+  
+  color: #ffffff;
+  font-size: 17px ;
+  /* padding: 16px 24px; */
+  font-family: 'poppins';
+  border: none;
+  
+}
+
+.sidebar .nav li:hover{
+  background: none;
+  color: #ECEFF1;
+  cursor: pointer;
+  transform: scale(0.95);
+  font-size: 20px;
+}
+
+/* #sidebar .nav a i{
+  margin-right: 16px;
+} */
+
+
+/* LEVEL COORDINATOR DASHBOARD */
+.section2{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-evenly;
+  
+}
+ .dashboard{
+background: #fff;
+  width: 50%;
+  height: 190px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.dashboard .details{
+margin: 5px auto 5px 48px;
+}
+.dashboard .details h1{
+font-family: 'poppins';
+}
+.student label{
+font-family: "Roboto";
+}
+
+
+.second-section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.second-section .select{
+display: flex;
+}
+
+.second-section .level{
+margin: auto;
+}
+.second-section .semester{
+margin: auto;
+}
+
+.second-section .select .dropdown{
+width: 450px;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.2);
+}
+ 
+/* check applicants */
+
